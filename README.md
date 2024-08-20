@@ -363,6 +363,7 @@ fetch("http://localhost:3000/dogs", configurationObject)
   });
 ```
 
+
 Notice that the first `then()` is passed a callback function that takes in
 `response` as an argument. This is a [`Response`][response] object, representing
 what the destination server sent back to us. This object has a built-in method,
